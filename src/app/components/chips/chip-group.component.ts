@@ -32,7 +32,6 @@ import { AccessibilityService } from '../../services/accessibility.service';
           [variant]="variant"
           [dismissible]="chip.dismissible ?? dismissible"
           [hasIcon]="!!chip.icon"
-          [icon]="chip.icon"
           [icon]="chip.icon ?? ''"
           [disabled]="chip.disabled ?? false"
           [selected]="isSelected(chip)"
